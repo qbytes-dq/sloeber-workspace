@@ -1,0 +1,1297 @@
+21:27:41 **** Clean-only build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" clean 
+make: *** No rule to make target 'clean'.  Stop.
+21:27:41 **** Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\CDC.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\CDC.cpp.d" -MT"core\CDC.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\CDC.cpp"  -o  "core\CDC.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\CDC.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\HardwareSerial.cpp.d" -MT"core\HardwareSerial.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial.cpp"  -o  "core\HardwareSerial.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial0.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\HardwareSerial0.cpp.d" -MT"core\HardwareSerial0.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial0.cpp"  -o  "core\HardwareSerial0.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial0.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial1.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\HardwareSerial1.cpp.d" -MT"core\HardwareSerial1.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial1.cpp"  -o  "core\HardwareSerial1.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial1.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial2.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\HardwareSerial2.cpp.d" -MT"core\HardwareSerial2.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial2.cpp"  -o  "core\HardwareSerial2.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial2.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial3.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\HardwareSerial3.cpp.d" -MT"core\HardwareSerial3.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial3.cpp"  -o  "core\HardwareSerial3.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial3.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\IPAddress.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\IPAddress.cpp.d" -MT"core\IPAddress.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\IPAddress.cpp"  -o  "core\IPAddress.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\IPAddress.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\PluggableUSB.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\PluggableUSB.cpp.d" -MT"core\PluggableUSB.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\PluggableUSB.cpp"  -o  "core\PluggableUSB.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\PluggableUSB.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Print.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\Print.cpp.d" -MT"core\Print.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Print.cpp"  -o  "core\Print.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Print.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Stream.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\Stream.cpp.d" -MT"core\Stream.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Stream.cpp"  -o  "core\Stream.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Stream.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Tone.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\Tone.cpp.d" -MT"core\Tone.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Tone.cpp"  -o  "core\Tone.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Tone.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\USBCore.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\USBCore.cpp.d" -MT"core\USBCore.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\USBCore.cpp"  -o  "core\USBCore.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\USBCore.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WInterrupts.c'
+'Starting C compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\WInterrupts.c.d" -MT"core\WInterrupts.c.o" -D__IN_ECLIPSE__=1 "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WInterrupts.c"  -o  "core\WInterrupts.c.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WInterrupts.c'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WMath.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\WMath.cpp.d" -MT"core\WMath.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WMath.cpp"  -o  "core\WMath.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WMath.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WString.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\WString.cpp.d" -MT"core\WString.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WString.cpp"  -o  "core\WString.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WString.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\abi.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\abi.cpp.d" -MT"core\abi.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\abi.cpp"  -o  "core\abi.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\abi.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\hooks.c'
+'Starting C compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\hooks.c.d" -MT"core\hooks.c.o" -D__IN_ECLIPSE__=1 "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\hooks.c"  -o  "core\hooks.c.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\hooks.c'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\main.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\main.cpp.d" -MT"core\main.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\main.cpp"  -o  "core\main.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\main.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\new.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\new.cpp.d" -MT"core\new.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\new.cpp"  -o  "core\new.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\new.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring.c'
+'Starting C compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\wiring.c.d" -MT"core\wiring.c.o" -D__IN_ECLIPSE__=1 "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring.c"  -o  "core\wiring.c.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring.c'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_analog.c'
+'Starting C compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\wiring_analog.c.d" -MT"core\wiring_analog.c.o" -D__IN_ECLIPSE__=1 "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_analog.c"  -o  "core\wiring_analog.c.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_analog.c'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_digital.c'
+'Starting C compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\wiring_digital.c.d" -MT"core\wiring_digital.c.o" -D__IN_ECLIPSE__=1 "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_digital.c"  -o  "core\wiring_digital.c.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_digital.c'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_pulse.S'
+'Starting S compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -x assembler-with-cpp -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\wiring_pulse.S.d" -MT"core\wiring_pulse.S.o"  "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_pulse.S"  -o  "core\wiring_pulse.S.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_pulse.S'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_pulse.c'
+'Starting C compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\wiring_pulse.c.d" -MT"core\wiring_pulse.c.o" -D__IN_ECLIPSE__=1 "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_pulse.c"  -o  "core\wiring_pulse.c.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_pulse.c'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_shift.c'
+'Starting C compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -MMD -MP -MF"core\wiring_shift.c.d" -MT"core\wiring_shift.c.o" -D__IN_ECLIPSE__=1 "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_shift.c"  -o  "core\wiring_shift.c.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_shift.c'
+' '
+'Starting archiver'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  .\core\CDC.cpp.o .\core\HardwareSerial.cpp.o .\core\HardwareSerial0.cpp.o .\core\HardwareSerial1.cpp.o .\core\HardwareSerial2.cpp.o .\core\HardwareSerial3.cpp.o .\core\IPAddress.cpp.o .\core\PluggableUSB.cpp.o .\core\Print.cpp.o .\core\Stream.cpp.o .\core\Tone.cpp.o .\core\USBCore.cpp.o .\core\WInterrupts.c.o .\core\WMath.cpp.o .\core\WString.cpp.o .\core\abi.cpp.o .\core\hooks.c.o .\core\main.cpp.o .\core\new.cpp.o .\core\wiring.c.o .\core\wiring_analog.c.o .\core\wiring_digital.c.o .\core\wiring_pulse.S.o .\core\wiring_pulse.c.o .\core\wiring_shift.c.o 
+'Finished building: C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                    size      addr
+.data                         0   8388864
+.text                       928         0
+.bss                          9   8388864
+.comment                     17         0
+.note.gnu.avr.deviceinfo     64         0
+.debug_aranges               40         0
+.debug_info                3218         0
+.debug_abbrev              1979         0
+.debug_line                1000         0
+.debug_frame                180         0
+.debug_str                 1216         0
+.debug_loc                 1096         0
+.debug_ranges                24         0
+Total                      9771
+
+
+'Finished building target: Blink'
+' '
+21:28:09 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                    size      addr
+.data                         0   8388864
+.text                       928         0
+.bss                          9   8388864
+.comment                     17         0
+.note.gnu.avr.deviceinfo     64         0
+.debug_aranges               40         0
+.debug_info                3218         0
+.debug_abbrev              1979         0
+.debug_line                1000         0
+.debug_frame                180         0
+.debug_str                 1216         0
+.debug_loc                 1096         0
+.debug_ranges                24         0
+Total                      9771
+
+
+'Finished building target: Blink'
+' '
+21:29:48 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                    size      addr
+.data                         0   8388864
+.text                       928         0
+.bss                          9   8388864
+.comment                     17         0
+.note.gnu.avr.deviceinfo     64         0
+.debug_aranges               40         0
+.debug_info                3218         0
+.debug_abbrev              1979         0
+.debug_line                1000         0
+.debug_frame                180         0
+.debug_str                 1216         0
+.debug_loc                 1096         0
+.debug_ranges                24         0
+Total                      9771
+
+
+'Finished building target: Blink'
+' '
+21:35:08 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src\utility\twi.c'
+'Starting C compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"libraries\Wire\src\utility\twi.c.d" -MT"libraries\Wire\src\utility\twi.c.o" -D__IN_ECLIPSE__=1 "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src\utility\twi.c"  -o  "libraries\Wire\src\utility\twi.c.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src\utility\twi.c'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src\Wire.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"libraries\Wire\src\Wire.cpp.d" -MT"libraries\Wire\src\Wire.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src\Wire.cpp"  -o  "libraries\Wire\src\Wire.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src\Wire.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.d" -MT"libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp"  -o  "libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o"
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:66:39: warning: unused parameter 'cols' [-Wunused-parameter]
+ void LiquidCrystal_I2C::begin(uint8_t cols, uint8_t lines, uint8_t dotsize) {
+                                       ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:307:39: warning: unused parameter 'cmdDelay' [-Wunused-parameter]
+ void LiquidCrystal_I2C::setDelay (int cmdDelay,int charDelay) {}
+                                       ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:307:52: warning: unused parameter 'charDelay' [-Wunused-parameter]
+ void LiquidCrystal_I2C::setDelay (int cmdDelay,int charDelay) {}
+                                                    ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:310:50: warning: unused parameter 'graphtype' [-Wunused-parameter]
+ uint8_t LiquidCrystal_I2C::init_bargraph(uint8_t graphtype){return 0;}
+                                                  ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:311:55: warning: unused parameter 'row' [-Wunused-parameter]
+ void LiquidCrystal_I2C::draw_horizontal_graph(uint8_t row, uint8_t column, uint8_t len,  uint8_t pixel_col_end){}
+                                                       ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:311:68: warning: unused parameter 'column' [-Wunused-parameter]
+ void LiquidCrystal_I2C::draw_horizontal_graph(uint8_t row, uint8_t column, uint8_t len,  uint8_t pixel_col_end){}
+                                                                    ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:311:84: warning: unused parameter 'len' [-Wunused-parameter]
+ void LiquidCrystal_I2C::draw_horizontal_graph(uint8_t row, uint8_t column, uint8_t len,  uint8_t pixel_col_end){}
+                                                                                    ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:311:98: warning: unused parameter 'pixel_col_end' [-Wunused-parameter]
+ void LiquidCrystal_I2C::draw_horizontal_graph(uint8_t row, uint8_t column, uint8_t len,  uint8_t pixel_col_end){}
+                                                                                                  ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:312:53: warning: unused parameter 'row' [-Wunused-parameter]
+ void LiquidCrystal_I2C::draw_vertical_graph(uint8_t row, uint8_t column, uint8_t len,  uint8_t pixel_row_end){}
+                                                     ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:312:66: warning: unused parameter 'column' [-Wunused-parameter]
+ void LiquidCrystal_I2C::draw_vertical_graph(uint8_t row, uint8_t column, uint8_t len,  uint8_t pixel_row_end){}
+                                                                  ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:312:82: warning: unused parameter 'len' [-Wunused-parameter]
+ void LiquidCrystal_I2C::draw_vertical_graph(uint8_t row, uint8_t column, uint8_t len,  uint8_t pixel_row_end){}
+                                                                                  ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:312:96: warning: unused parameter 'pixel_row_end' [-Wunused-parameter]
+ void LiquidCrystal_I2C::draw_vertical_graph(uint8_t row, uint8_t column, uint8_t len,  uint8_t pixel_row_end){}
+                                                                                                ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:313:45: warning: unused parameter 'new_val' [-Wunused-parameter]
+ void LiquidCrystal_I2C::setContrast(uint8_t new_val){}
+                                             ^
+'Finished building: C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                         18   8388864
+.text                       1934         0
+.bss                         132   8388882
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                 5436         0
+.debug_abbrev               2734         0
+.debug_line                 1915         0
+.debug_frame                 548         0
+.debug_str                  1864         0
+.debug_loc                  2454         0
+.debug_ranges                 32         0
+Total                      17196
+
+
+'Finished building target: Blink'
+' '
+21:36:29 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+In file included from ..\.ino.cpp:14:0:
+..\Blink.ino: In function 'void setup()':
+..\Blink.ino:36:3: error: 'lcd' was not declared in this scope
+   lcd.init();                      // initialize the lcd
+   ^
+subdir.mk:24: recipe for target '.ino.cpp.o' failed
+make: *** [.ino.cpp.o] Error 1
+21:36:47 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                        108   8388864
+.text                       3008         0
+.bss                         181   8388972
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                 9937         0
+.debug_abbrev               2996         0
+.debug_line                 2916         0
+.debug_frame                 768         0
+.debug_str                  2350         0
+.debug_loc                  4631         0
+.debug_ranges                104         0
+Total                      27128
+
+
+'Finished building target: Blink'
+' '
+21:37:09 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                        108   8388864
+.text                       3008         0
+.bss                         181   8388972
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                 9937         0
+.debug_abbrev               2996         0
+.debug_line                 2916         0
+.debug_frame                 768         0
+.debug_str                  2350         0
+.debug_loc                  4631         0
+.debug_ranges                104         0
+Total                      27128
+
+
+'Finished building target: Blink'
+' '
+21:38:36 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                        108   8388864
+.text                       3034         0
+.bss                         183   8388972
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                 9978         0
+.debug_abbrev               2996         0
+.debug_line                 2928         0
+.debug_frame                 768         0
+.debug_str                  2350         0
+.debug_loc                  4631         0
+.debug_ranges                104         0
+Total                      27209
+
+
+'Finished building target: Blink'
+' '
+21:39:58 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                        108   8388864
+.text                       3292         0
+.bss                         183   8388972
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10966         0
+.debug_abbrev               3077         0
+.debug_line                 3044         0
+.debug_frame                 784         0
+.debug_str                  2402         0
+.debug_loc                  5077         0
+.debug_ranges                224         0
+Total                      29286
+
+
+'Finished building target: Blink'
+' '
+21:40:46 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                         98   8388864
+.text                       3274         0
+.bss                         183   8388962
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10966         0
+.debug_abbrev               3077         0
+.debug_line                 3036         0
+.debug_frame                 784         0
+.debug_str                  2402         0
+.debug_loc                  5077         0
+.debug_ranges                224         0
+Total                      29250
+
+
+'Finished building target: Blink'
+' '
+21:41:08 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                         98   8388864
+.text                       3274         0
+.bss                         183   8388962
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10964         0
+.debug_abbrev               3077         0
+.debug_line                 3036         0
+.debug_frame                 784         0
+.debug_str                  2402         0
+.debug_loc                  5077         0
+.debug_ranges                224         0
+Total                      29248
+
+
+'Finished building target: Blink'
+' '
+21:41:22 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                         98   8388864
+.text                       3274         0
+.bss                         183   8388962
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10964         0
+.debug_abbrev               3077         0
+.debug_line                 3036         0
+.debug_frame                 784         0
+.debug_str                  2402         0
+.debug_loc                  5077         0
+.debug_ranges                224         0
+Total                      29248
+
+
+'Finished building target: Blink'
+' '
+21:45:06 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src\utility\twi.c'
+'Starting C compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"libraries\Wire\src\utility\twi.c.d" -MT"libraries\Wire\src\utility\twi.c.o" -D__IN_ECLIPSE__=1 "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src\utility\twi.c"  -o  "libraries\Wire\src\utility\twi.c.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src\utility\twi.c'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src\Wire.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"libraries\Wire\src\Wire.cpp.d" -MT"libraries\Wire\src\Wire.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src\Wire.cpp"  -o  "libraries\Wire\src\Wire.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src\Wire.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.d" -MT"libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp"  -o  "libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o"
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:66:39: warning: unused parameter 'cols' [-Wunused-parameter]
+ void LiquidCrystal_I2C::begin(uint8_t cols, uint8_t lines, uint8_t dotsize) {
+                                       ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:307:39: warning: unused parameter 'cmdDelay' [-Wunused-parameter]
+ void LiquidCrystal_I2C::setDelay (int cmdDelay,int charDelay) {}
+                                       ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:307:52: warning: unused parameter 'charDelay' [-Wunused-parameter]
+ void LiquidCrystal_I2C::setDelay (int cmdDelay,int charDelay) {}
+                                                    ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:310:50: warning: unused parameter 'graphtype' [-Wunused-parameter]
+ uint8_t LiquidCrystal_I2C::init_bargraph(uint8_t graphtype){return 0;}
+                                                  ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:311:55: warning: unused parameter 'row' [-Wunused-parameter]
+ void LiquidCrystal_I2C::draw_horizontal_graph(uint8_t row, uint8_t column, uint8_t len,  uint8_t pixel_col_end){}
+                                                       ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:311:68: warning: unused parameter 'column' [-Wunused-parameter]
+ void LiquidCrystal_I2C::draw_horizontal_graph(uint8_t row, uint8_t column, uint8_t len,  uint8_t pixel_col_end){}
+                                                                    ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:311:84: warning: unused parameter 'len' [-Wunused-parameter]
+ void LiquidCrystal_I2C::draw_horizontal_graph(uint8_t row, uint8_t column, uint8_t len,  uint8_t pixel_col_end){}
+                                                                                    ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:311:98: warning: unused parameter 'pixel_col_end' [-Wunused-parameter]
+ void LiquidCrystal_I2C::draw_horizontal_graph(uint8_t row, uint8_t column, uint8_t len,  uint8_t pixel_col_end){}
+                                                                                                  ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:312:53: warning: unused parameter 'row' [-Wunused-parameter]
+ void LiquidCrystal_I2C::draw_vertical_graph(uint8_t row, uint8_t column, uint8_t len,  uint8_t pixel_row_end){}
+                                                     ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:312:66: warning: unused parameter 'column' [-Wunused-parameter]
+ void LiquidCrystal_I2C::draw_vertical_graph(uint8_t row, uint8_t column, uint8_t len,  uint8_t pixel_row_end){}
+                                                                  ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:312:82: warning: unused parameter 'len' [-Wunused-parameter]
+ void LiquidCrystal_I2C::draw_vertical_graph(uint8_t row, uint8_t column, uint8_t len,  uint8_t pixel_row_end){}
+                                                                                  ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:312:96: warning: unused parameter 'pixel_row_end' [-Wunused-parameter]
+ void LiquidCrystal_I2C::draw_vertical_graph(uint8_t row, uint8_t column, uint8_t len,  uint8_t pixel_row_end){}
+                                                                                                ^
+C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp:313:45: warning: unused parameter 'new_val' [-Wunused-parameter]
+ void LiquidCrystal_I2C::setContrast(uint8_t new_val){}
+                                             ^
+'Finished building: C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2\LiquidCrystal_I2C.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\CDC.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\CDC.cpp.d" -MT"core\CDC.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\CDC.cpp"  -o  "core\CDC.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\CDC.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\HardwareSerial.cpp.d" -MT"core\HardwareSerial.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial.cpp"  -o  "core\HardwareSerial.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial0.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\HardwareSerial0.cpp.d" -MT"core\HardwareSerial0.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial0.cpp"  -o  "core\HardwareSerial0.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial0.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial1.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\HardwareSerial1.cpp.d" -MT"core\HardwareSerial1.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial1.cpp"  -o  "core\HardwareSerial1.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial1.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial2.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\HardwareSerial2.cpp.d" -MT"core\HardwareSerial2.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial2.cpp"  -o  "core\HardwareSerial2.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial2.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial3.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\HardwareSerial3.cpp.d" -MT"core\HardwareSerial3.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial3.cpp"  -o  "core\HardwareSerial3.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\HardwareSerial3.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\IPAddress.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\IPAddress.cpp.d" -MT"core\IPAddress.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\IPAddress.cpp"  -o  "core\IPAddress.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\IPAddress.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\PluggableUSB.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\PluggableUSB.cpp.d" -MT"core\PluggableUSB.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\PluggableUSB.cpp"  -o  "core\PluggableUSB.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\PluggableUSB.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Print.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\Print.cpp.d" -MT"core\Print.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Print.cpp"  -o  "core\Print.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Print.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Stream.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\Stream.cpp.d" -MT"core\Stream.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Stream.cpp"  -o  "core\Stream.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Stream.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Tone.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\Tone.cpp.d" -MT"core\Tone.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Tone.cpp"  -o  "core\Tone.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\Tone.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\USBCore.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\USBCore.cpp.d" -MT"core\USBCore.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\USBCore.cpp"  -o  "core\USBCore.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\USBCore.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WInterrupts.c'
+'Starting C compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\WInterrupts.c.d" -MT"core\WInterrupts.c.o" -D__IN_ECLIPSE__=1 "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WInterrupts.c"  -o  "core\WInterrupts.c.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WInterrupts.c'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WMath.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\WMath.cpp.d" -MT"core\WMath.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WMath.cpp"  -o  "core\WMath.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WMath.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WString.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\WString.cpp.d" -MT"core\WString.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WString.cpp"  -o  "core\WString.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\WString.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\abi.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\abi.cpp.d" -MT"core\abi.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\abi.cpp"  -o  "core\abi.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\abi.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\hooks.c'
+'Starting C compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\hooks.c.d" -MT"core\hooks.c.o" -D__IN_ECLIPSE__=1 "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\hooks.c"  -o  "core\hooks.c.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\hooks.c'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\main.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\main.cpp.d" -MT"core\main.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\main.cpp"  -o  "core\main.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\main.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\new.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\new.cpp.d" -MT"core\new.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\new.cpp"  -o  "core\new.cpp.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\new.cpp'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring.c'
+'Starting C compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\wiring.c.d" -MT"core\wiring.c.o" -D__IN_ECLIPSE__=1 "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring.c"  -o  "core\wiring.c.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring.c'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_analog.c'
+'Starting C compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\wiring_analog.c.d" -MT"core\wiring_analog.c.o" -D__IN_ECLIPSE__=1 "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_analog.c"  -o  "core\wiring_analog.c.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_analog.c'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_digital.c'
+'Starting C compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\wiring_digital.c.d" -MT"core\wiring_digital.c.o" -D__IN_ECLIPSE__=1 "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_digital.c"  -o  "core\wiring_digital.c.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_digital.c'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_pulse.S'
+'Starting S compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -x assembler-with-cpp -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\wiring_pulse.S.d" -MT"core\wiring_pulse.S.o"  "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_pulse.S"  -o  "core\wiring_pulse.S.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_pulse.S'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_pulse.c'
+'Starting C compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\wiring_pulse.c.d" -MT"core\wiring_pulse.c.o" -D__IN_ECLIPSE__=1 "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_pulse.c"  -o  "core\wiring_pulse.c.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_pulse.c'
+' '
+'Building file: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_shift.c'
+'Starting C compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF"core\wiring_shift.c.d" -MT"core\wiring_shift.c.o" -D__IN_ECLIPSE__=1 "C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_shift.c"  -o  "core\wiring_shift.c.o"
+'Finished building: C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino\wiring_shift.c'
+' '
+'Starting archiver'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  .\core\CDC.cpp.o .\core\HardwareSerial.cpp.o .\core\HardwareSerial0.cpp.o .\core\HardwareSerial1.cpp.o .\core\HardwareSerial2.cpp.o .\core\HardwareSerial3.cpp.o .\core\IPAddress.cpp.o .\core\PluggableUSB.cpp.o .\core\Print.cpp.o .\core\Stream.cpp.o .\core\Tone.cpp.o .\core\USBCore.cpp.o .\core\WInterrupts.c.o .\core\WMath.cpp.o .\core\WString.cpp.o .\core\abi.cpp.o .\core\hooks.c.o .\core\main.cpp.o .\core\new.cpp.o .\core\wiring.c.o .\core\wiring_analog.c.o .\core\wiring_digital.c.o .\core\wiring_pulse.S.o .\core\wiring_pulse.c.o .\core\wiring_shift.c.o 
+'Finished building: C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                         98   8388864
+.text                       3274         0
+.bss                         183   8388962
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10964         0
+.debug_abbrev               3077         0
+.debug_line                 3036         0
+.debug_frame                 784         0
+.debug_str                  2402         0
+.debug_loc                  5077         0
+.debug_ranges                224         0
+Total                      29248
+
+
+'Finished building target: Blink'
+' '
+21:57:08 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                         98   8388864
+.text                       3274         0
+.bss                         183   8388962
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10964         0
+.debug_abbrev               3077         0
+.debug_line                 3036         0
+.debug_frame                 784         0
+.debug_str                  2402         0
+.debug_loc                  5077         0
+.debug_ranges                224         0
+Total                      29248
+
+
+'Finished building target: Blink'
+' '
+22:03:30 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                         98   8388864
+.text                       3250         0
+.bss                         183   8388962
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10902         0
+.debug_abbrev               3077         0
+.debug_line                 3024         0
+.debug_frame                 784         0
+.debug_str                  2402         0
+.debug_loc                  5077         0
+.debug_ranges                224         0
+Total                      29150
+
+
+'Finished building target: Blink'
+' '
+22:16:03 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                        102   8388864
+.text                       3258         0
+.bss                         181   8388966
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10970         0
+.debug_abbrev               3077         0
+.debug_line                 3030         0
+.debug_frame                 784         0
+.debug_str                  2402         0
+.debug_loc                  5077         0
+.debug_ranges                224         0
+Total                      29234
+
+
+'Finished building target: Blink'
+' '
+22:17:12 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                        102   8388864
+.text                       3176         0
+.bss                         181   8388966
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10601         0
+.debug_abbrev               3043         0
+.debug_line                 2980         0
+.debug_frame                 784         0
+.debug_str                  2367         0
+.debug_loc                  4900         0
+.debug_ranges                200         0
+Total                      28463
+
+
+'Finished building target: Blink'
+' '
+22:19:31 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+In file included from ..\.ino.cpp:14:0:
+..\Blink.ino:67:1: error: expected declaration before '}' token
+ }
+ ^
+subdir.mk:24: recipe for target '.ino.cpp.o' failed
+make: *** [.ino.cpp.o] Error 1
+22:19:46 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                        106   8388864
+.text                       3188         0
+.bss                         181   8388970
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10594         0
+.debug_abbrev               3043         0
+.debug_line                 2990         0
+.debug_frame                 784         0
+.debug_str                  2379         0
+.debug_loc                  4900         0
+.debug_ranges                200         0
+Total                      28494
+
+
+'Finished building target: Blink'
+' '
+22:20:41 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                        106   8388864
+.text                       3198         0
+.bss                         181   8388970
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10611         0
+.debug_abbrev               3043         0
+.debug_line                 2996         0
+.debug_frame                 784         0
+.debug_str                  2367         0
+.debug_loc                  4900         0
+.debug_ranges                200         0
+Total                      28515
+
+
+'Finished building target: Blink'
+' '
+19:54:23 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                        106   8388864
+.text                       3198         0
+.bss                         181   8388970
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10611         0
+.debug_abbrev               3043         0
+.debug_line                 2996         0
+.debug_frame                 784         0
+.debug_str                  2367         0
+.debug_loc                  4900         0
+.debug_ranges                200         0
+Total                      28515
+
+
+'Finished building target: Blink'
+' '
+19:58:01 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                        106   8388864
+.text                       3198         0
+.bss                         181   8388970
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10611         0
+.debug_abbrev               3043         0
+.debug_line                 2996         0
+.debug_frame                 784         0
+.debug_str                  2367         0
+.debug_loc                  4900         0
+.debug_ranges                200         0
+Total                      28515
+
+
+'Finished building target: Blink'
+' '
+20:02:32 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                        106   8388864
+.text                       3198         0
+.bss                         181   8388970
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10611         0
+.debug_abbrev               3043         0
+.debug_line                 2996         0
+.debug_frame                 784         0
+.debug_str                  2367         0
+.debug_loc                  4900         0
+.debug_ranges                200         0
+Total                      28515
+
+
+'Finished building target: Blink'
+' '
+20:03:09 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                        106   8388864
+.text                       3222         0
+.bss                         181   8388970
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10673         0
+.debug_abbrev               3043         0
+.debug_line                 3008         0
+.debug_frame                 784         0
+.debug_str                  2367         0
+.debug_loc                  4900         0
+.debug_ranges                200         0
+Total                      28613
+
+
+'Finished building target: Blink'
+' '
+20:03:38 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                        106   8388864
+.text                       3222         0
+.bss                         181   8388970
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10673         0
+.debug_abbrev               3043         0
+.debug_line                 3008         0
+.debug_frame                 784         0
+.debug_str                  2367         0
+.debug_loc                  4900         0
+.debug_ranges                200         0
+Total                      28613
+
+
+'Finished building target: Blink'
+' '
+20:03:59 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                        106   8388864
+.text                       3222         0
+.bss                         181   8388970
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10671         0
+.debug_abbrev               3043         0
+.debug_line                 3008         0
+.debug_frame                 784         0
+.debug_str                  2367         0
+.debug_loc                  4900         0
+.debug_ranges                200         0
+Total                      28611
+
+
+'Finished building target: Blink'
+' '
+20:04:26 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                        106   8388864
+.text                       3198         0
+.bss                         181   8388970
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10611         0
+.debug_abbrev               3043         0
+.debug_line                 2996         0
+.debug_frame                 784         0
+.debug_str                  2367         0
+.debug_loc                  4900         0
+.debug_ranges                200         0
+Total                      28515
+
+
+'Finished building target: Blink'
+' '

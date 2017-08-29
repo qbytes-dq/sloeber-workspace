@@ -1,0 +1,67 @@
+/*
+  Blink
+  Turns on an LED on for one second, then off for one second, repeatedly.
+
+  Most Arduinos have an on-board LED you can control. On the Uno and
+  Leonardo, it is attached to digital pin 13. If you're unsure what
+  pin the on-board LED is connected to on your Arduino model, check
+  the documentation at http://www.arduino.cc
+
+  This example code is in the public domain.
+
+  modified 8 May 2014
+  by Scott Fitzgerald
+ */
+
+
+// http://www.arduinolibraries.info/libraries
+// http://www.arduinolibraries.info/libraries
+// http://www.arduinolibraries.info/libraries
+// http://www.arduinolibraries.info/libraries
+// http://www.arduinolibraries.info/libraries
+// http://www.arduinolibraries.info/libraries
+
+
+#include  <Arduino.h>
+
+
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+
+LiquidCrystal_I2C lcd(0x27,20,4);  // set the LCD address to 0x27 for a 16 chars and 2 line display
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin 13 as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+
+  lcd.init();                      // initialize the lcd
+  lcd.init();
+  // Print a message to the LCD.
+  lcd.backlight();
+  lcd.setCursor(0,0);
+  lcd.print("Hello, world!");
+  lcd.setCursor(0,1);
+  lcd.print("Mr. Q here!");
+   lcd.setCursor(0,2);
+  lcd.print("Arduino LCM IIC 2004");
+   lcd.setCursor(2,3);
+  lcd.print("Power By Q!");
+}
+
+unsigned int lup = 65000;
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+//  delay(50);              // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+//  delay(50);              // wait for a second
+
+  if (lup == 0){
+	  lcd.setCursor(12,1);
+	  lcd.print("     ");
+  }
+
+  lcd.setCursor(12,1);
+  lcd.print(lup++);
+}

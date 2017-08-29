@@ -1,0 +1,42 @@
+20:04:26 **** Incremental Build of configuration Release for project Blink ****
+"C:\\sloeber\\arduinoPlugin\\tools\\make\\make" all 
+'Building file: ..\.ino.cpp'
+'Starting C++ compile'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\cores\arduino" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\variants\eightanaloginputs" -I"C:\sloeber\arduinoPlugin\libraries\LiquidCrystal_I2C\1.1.2" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire" -I"C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "..\.ino.cpp"  -o  ".ino.cpp.o"
+'Finished building: ..\.ino.cpp'
+' '
+'Starting combiner'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf"    .\.ino.cpp.o  .\libraries\Wire\src\utility\twi.c.o  .\libraries\Wire\src\Wire.cpp.o  .\libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.cpp.o   C:\Users\davidq\Documents\sloeber-workspace\Blink\Release\arduino.ar    C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/arduino.ar  "-LC:\Users\davidq\Documents\sloeber-workspace\Blink/Release" -lm
+'Finished building: Blink.elf'
+' '
+'Create eeprom image'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.eep"
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.elf" "C:\Users\davidq\Documents\sloeber-workspace\Blink/Release/Blink.hex"
+'Finished building: Blink.hex'
+' '
+'Building target: Blink'
+'Printing size:'
+"C:\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-size" -A "C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf"
+C:/Users/davidq/Documents/sloeber-workspace/Blink/Release/Blink.elf  :
+section                     size      addr
+.data                        106   8388864
+.text                       3198         0
+.bss                         181   8388970
+.comment                      17         0
+.note.gnu.avr.deviceinfo      64         0
+.debug_aranges                48         0
+.debug_info                10611         0
+.debug_abbrev               3043         0
+.debug_line                 2996         0
+.debug_frame                 784         0
+.debug_str                  2367         0
+.debug_loc                  4900         0
+.debug_ranges                200         0
+Total                      28515
+
+
+'Finished building target: Blink'
+' '
+
+20:04:29 Build Finished (took 2s.903ms)
+

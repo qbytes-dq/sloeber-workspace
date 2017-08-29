@@ -1,0 +1,14 @@
+Automatically\ import\ libraries=true
+FbStatus=27
+FsStatus=1
+FuStatus=21
+JANTJE.TEMPLATE_USE_DEFAULT=sample
+Last\ Used\ Upload\ port=COM3
+Last\ used\ Board=nano
+Last\ used\ Boards\ file=C\:/sloeber/arduinoPlugin/packages/arduino/hardware/avr/1.6.20/boards.txt
+Last\ used\ Examples=C\:/sloeber/arduinoPlugin/examples/01.Basics/Blink
+Private\ Library\ Path=C\:/Users/davidq/Arduino/libraries
+Private\ hardware\ Path=C\:/Users/davidq/Arduino/hardware
+eclipse.preferences.version=1
+last\ Used\ upload\ Protocol=Default
+last\ used\ Board\ custom\ option\ selections=CPU\=ATMEGA328
